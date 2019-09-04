@@ -1,9 +1,9 @@
 #include <lib2.h>
 
 static inline void
-fn1(void)
+lib1_fn1(void)
 {
-	fn3();
+	lib2_fn2();
 
 	return;
 }

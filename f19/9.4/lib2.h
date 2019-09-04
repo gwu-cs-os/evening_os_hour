@@ -1,11 +1,11 @@
 static inline void
-fn2(void)
+lib2_fn1(void)
 {
-
+	return;
 }
 
-static inline void
-fn3(void)
+void
+lib2_fn2(void)
 {
-
+	return;
 }

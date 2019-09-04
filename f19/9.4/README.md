@@ -33,8 +33,8 @@ These are some of the higher-order bits you should know.
 Functions:
 
 - static
-- extern
 - static inline
+- extern
 
 Data:
 
@@ -42,9 +42,14 @@ Data:
 
 Conventions:
 
+- *always* use header guards
 - no data in headers
+- generally avoid extern
+	- use headers and declarations for functions, and avoid direct data accesses across files (efficient with LTO), instead
 - public facing API in header file
-- `_` namespacing to denote non-public functions in headers
+- namespacing
+	- `_` namespacing to denote non-public functions in headers
+	- static for non-API (e.g. helper) functions
 
 ### `nm` and `objdump` for introspection
 
