@@ -1,7 +1,8 @@
-#include <lib2.h>
+#include <malloc.h>
+#include <main.h>
 
 void
 obj_fn(void)
 {
-	lib2_fn2();
+	set_x(times2(get_x()));
 }

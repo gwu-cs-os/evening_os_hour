@@ -1,0 +1,42 @@
+/* lib2.h included from lib1.h */
+static inline void
+lib2_fn1(void)
+{
+ return;
+}
+
+void
+lib2_fn2(void)
+{
+ return;
+}
+
+/* lib1 stuff */
+static inline void
+lib1_fn1(void)
+{
+ lib2_fn2();
+
+ return;
+}
+
+/* lib2.h included from main.c */
+static inline void
+lib2_fn1(void)
+{
+ return;
+}
+
+void
+lib2_fn2(void)
+{
+ return;
+}
+
+/* main.c file */
+void
+main(void)
+{
+ lib1_fn1();
+ lib2_fn1();
+}

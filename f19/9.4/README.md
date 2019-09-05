@@ -13,6 +13,32 @@ Provide extended Q&A time for the class, and coverage of skills and background i
 - Stop me if something is distracting or needs clarification
 - Make suggestions for future events on Piazza
 
+## Discussing Piazza
+
+- void * in C (LinkedList<Integer>)
+- C data-structures and the use of pointers
+- printing void *s
+
+void *ptr = malloc(10);
+void *ptr2 = ptr;
+void *ptr3 = malloc(10);
+void *x = (void *)1;
+void *y = (void *)2;
+struct mystruct {
+  int x, y;
+};
+void *s1 = malloc(sizeof(struct mystruct));
+void *s2 = malloc(sizeof(struct mystruct));
+void *s3 = s1;
+printf("%p\n", ptr)
+
+if (ptr == ptr2) ...true...
+if (ptr == ptr3) ...false...
+if (x == y) ...false...
+if (s1 == s2) ...false...
+if (s1 == s3) ...true...
+
+
 ## Understanding C development
 
 Starting out with C.
@@ -29,6 +55,16 @@ These are some of the higher-order bits you should know.
 - macro hygiene and paren <skip>
 
 ### Visibility and storage modifiers
+
+Visibility in Java:
+
+- private - only accessible within the class
+- public - anyone can access (obj.f1 if marked public could be accessed directly)
+- protected
+
+Visibility in C:
+
+- unit: c file "which variables and functions can be accessed from which .c files"
 
 Functions:
 
