@@ -19,6 +19,7 @@ Provide extended Q&A time for the class, and coverage of skills and background i
 - C data-structures and the use of pointers
 - printing void *s
 
+```c
 void *ptr = malloc(10);
 void *ptr2 = ptr;
 void *ptr3 = malloc(10);
@@ -37,6 +38,7 @@ if (ptr == ptr3) ...false...
 if (x == y) ...false...
 if (s1 == s2) ...false...
 if (s1 == s3) ...true...
+```
 
 
 ## Understanding C development
