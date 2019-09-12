@@ -40,7 +40,6 @@ if (s1 == s2) ...false...
 if (s1 == s3) ...true...
 ```
 
-
 ## Understanding C development
 
 Starting out with C.
