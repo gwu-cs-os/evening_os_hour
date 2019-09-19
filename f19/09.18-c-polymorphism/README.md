@@ -2,8 +2,11 @@
 
 ## Class Admin and Office Hours
 
+- Updates/fixes with the spec
 - Using the PQ O(N) in the PQ O(1)
 - Ring buffer full/empty
+- Priority queue = scheduler runqueue (include O(1))
+- Ring buffer = DMA ring buffer (at least similar to)
 
 ## Advanced Topic: Polymorphism in C
 
