@@ -23,9 +23,53 @@
        orient="auto"
        refY="0.0"
        refX="0.0"
-       id="marker5076"
+       id="marker1032"
        style="overflow:visible;"
        inkscape:isstock="true">
+      <path
+         id="path1030"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker980"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path978"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker924"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path922" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5076"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          id="path5074"
          d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
@@ -71,14 +115,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="393.03855"
+     inkscape:cx="475.87106"
      inkscape:cy="721.62441"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g5055-6"
      showgrid="true"
      inkscape:window-width="1265"
      inkscape:window-height="766"
-     inkscape:window-x="1898"
+     inkscape:window-x="655"
      inkscape:window-y="250"
      inkscape:window-maximized="0"
      inkscape:snap-bbox="true"
@@ -96,7 +140,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -124,6 +168,85 @@
              width="71.437508"
              id="rect838"
              style="fill:#ff5555;fill-opacity:1;stroke:#070707;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 44.979166,146.1875 c 71.437504,0 71.437504,0 71.437504,0"
+         id="path885"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 42.333333,114.4375 h -5.291667 v 31.75 h 5.291667"
+         id="path887"
+         inkscape:connector-curvature="0" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="12.863688"
+         y="129.3988"
+         id="text891"><tspan
+           sodipodi:role="line"
+           id="tspan889"
+           x="12.863688"
+           y="129.3988"
+           style="stroke-width:0.26458332">trapframe</tspan></text>
+      <g
+         transform="translate(76.729162,7.9375)"
+         id="g5059-3">
+        <g
+           id="g5055-6">
+          <rect
+             y="130.3125"
+             x="60.854172"
+             height="21.166666"
+             width="29.10417"
+             id="rect838-7"
+             style="fill:#ff5555;fill-opacity:1;stroke:#070707;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker924)"
+             d="M 89.958336,111.79167 C 76.729169,130.3125 76.729169,130.3125 76.729169,130.3125"
+             id="path914"
+             inkscape:connector-curvature="0" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             x="84.271561"
+             y="108.74649"
+             id="text964"><tspan
+               sodipodi:role="line"
+               id="tspan962"
+               x="84.271561"
+               y="108.74649"
+               style="stroke-width:0.26458332">myproc()</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             x="63.500004"
+             y="156.77084"
+             id="text968"><tspan
+               sodipodi:role="line"
+               id="tspan966"
+               x="63.500004"
+               y="156.77084"
+               style="stroke-width:0.26458332">struct proc</tspan></text>
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1032)"
+             d="m 66.145836,140.89583 c -10.583331,0 -15.874998,0 -26.458331,-2.64583"
+             id="path970"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cc" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             x="67.499512"
+             y="142.95815"
+             id="text2506"><tspan
+               sodipodi:role="line"
+               id="tspan2504"
+               x="67.499512"
+               y="142.95815"
+               style="stroke-width:0.26458332">tf</tspan></text>
         </g>
       </g>
     </g>
