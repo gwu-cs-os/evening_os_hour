@@ -19,3 +19,14 @@ We'll end with the `arg*` family of functions for retrieving system call argumen
 - ...and their relationship to the code
 - how system calls store and reference this data
 - `fetch*` & `arg*` functions
+
+Remember:
+
+```c
+int func(int a, int b, int c);
+...
+func(0, 1, 2);
+// 0 (argument a) is at the bottom of the stack (closest to esp)
+// 1 (argument b) is at the second to the bottom of the stack
+// 2 (argument c) is at the third to the bottom of the stack
+```

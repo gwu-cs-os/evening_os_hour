@@ -19,13 +19,28 @@
   <defs
      id="defs2">
     <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5076"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5074"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
        inkscape:isstock="true"
        style="overflow:visible;"
        id="marker4923"
        refX="0.0"
        refY="0.0"
        orient="auto"
-       inkscape:stockid="Arrow1Lend">
+       inkscape:stockid="Arrow1Lend"
+       inkscape:collect="always">
       <path
          transform="scale(0.8) rotate(180) translate(12.5,0)"
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
@@ -63,8 +78,8 @@
      showgrid="true"
      inkscape:window-width="1265"
      inkscape:window-height="766"
-     inkscape:window-x="1748"
-     inkscape:window-y="153"
+     inkscape:window-x="1898"
+     inkscape:window-y="250"
      inkscape:window-maximized="0"
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true"
@@ -96,16 +111,25 @@
        height="34.395832"
        x="71.4375"
        y="64.166664" />
-    <rect
-       style="fill:#ff5555;fill-opacity:1;stroke:#000000;stroke-width:0.15875;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect838"
-       width="15.875"
-       height="31.75"
-       x="71.4375"
-       y="127.66666" />
+    <g
+       id="g5064">
+      <g
+         id="g5059">
+        <g
+           id="g5055">
+          <rect
+             y="114.4375"
+             x="44.979168"
+             height="55.5625"
+             width="71.437508"
+             id="rect838"
+             style="fill:#ff5555;fill-opacity:1;stroke:#070707;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 39.6875,111.79167 h 97.89583"
+       d="M 34.395833,111.79167 H 140.22917"
        id="path840"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -145,84 +169,84 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="60.543182"
-       y="164.64906"
+       x="60.459057"
+       y="177.87823"
        id="text4559"><tspan
          sodipodi:role="line"
          id="tspan4557"
-         x="60.543182"
-         y="164.64906"
+         x="60.459057"
+         y="177.87823"
          style="stroke-width:0.26458332">kernel stack</tspan></text>
     <rect
        style="fill:#ffe781;fill-opacity:1;stroke:#000000;stroke-width:0.15815949;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect836-3"
        width="31.750582"
        height="10.504551"
-       x="103.18722"
-       y="58.874699" />
+       x="103.18723"
+       y="53.583031" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="106.16981"
-       y="65.155853"
+       x="106.16982"
+       y="59.864185"
        id="text4587"><tspan
          sodipodi:role="line"
          id="tspan4585"
-         x="106.16981"
-         y="65.155853"
+         x="106.16982"
+         y="59.864185"
          style="stroke-width:0.26458332">imma string</tspan></text>
     <rect
        style="fill:#ffe781;fill-opacity:1;stroke:#000000;stroke-width:0.15875001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect836-6"
        width="15.875"
        height="15.875"
-       x="103.1875"
-       y="82.6875" />
+       x="103.18752"
+       y="77.395836" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="103.29188"
-       y="80.759216"
+       x="103.29189"
+       y="75.467552"
        id="text4617"><tspan
          sodipodi:role="line"
          id="tspan4615"
-         x="103.29188"
-         y="80.759216"
+         x="103.29189"
+         y="75.467552"
          style="stroke-width:0.26458332">struct</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 71.4375,93.403125 c 15.875,0 15.875,0 15.875,0"
+       d="m 71.4375,88.111458 c 15.875,0 15.875,0 15.875,0"
        id="path4619"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 71.4375,88.111458 c 15.875,0 15.875,0 15.875,0"
+       d="m 71.4375,82.819791 c 15.875,0 15.875,0 15.875,0"
        id="path4621"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 71.437499,82.6875 c 15.875,0 15.875,0 15.875,0"
+       d="m 71.437499,77.395833 c 15.875,0 15.875,0 15.875,0"
        id="path4623"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="76.694473"
-       y="87.247505"
+       y="81.955841"
        id="text4627"><tspan
          sodipodi:role="line"
          id="tspan4625"
          x="76.694473"
-         y="87.247505"
+         y="81.955841"
          style="stroke-width:0.26458332">10</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="M 84.666666,90.625 C 103.1875,64.166667 103.1875,64.166667 103.1875,64.166667"
+       d="M 84.666666,85.333333 C 103.18748,58.875 103.18748,58.875 103.18748,58.875"
        id="path4629"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4923)"
-       d="M 84.666666,95.916667 C 103.1875,82.6875 103.1875,82.6875 103.1875,82.6875"
+       d="M 84.666666,90.625 C 103.18748,77.395833 103.18748,77.395833 103.18748,77.395833"
        id="path4913"
        inkscape:connector-curvature="0" />
     <path
@@ -233,14 +257,16 @@
        sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 39.6875,45.645834 c 0,66.145836 0,66.145836 0,66.145836"
+       d="m 39.6875,45.645834 0,63.499996"
        id="path4953"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 137.58333,35.062501 c 0,76.729169 0,76.729169 0,76.729169"
+       d="m 137.58333,35.062501 0,74.083329"
        id="path4955"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 142.875,35.062501 h 7.9375 v 76.729169 l -7.9375,0"
@@ -278,5 +304,65 @@
        d="m 150.8125,72.104167 c 2.64583,0 2.64583,0 2.64583,0"
        id="path4969"
        inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 71.437499,93.270833 c 15.875,0 15.875,0 15.875,0"
+       id="path4989"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="73.688225"
+       y="97.974068"
+       id="text4993"><tspan
+         sodipodi:role="line"
+         id="tspan4991"
+         x="73.688225"
+         y="97.974068"
+         style="stroke-width:0.26458332">reti</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="52.49192"
+       y="120.91591"
+       id="text5039"><tspan
+         sodipodi:role="line"
+         id="tspan5037"
+         x="52.49192"
+         y="120.91591"
+         style="stroke-width:0.26458332">HW pushed information</tspan><tspan
+         sodipodi:role="line"
+         x="52.49192"
+         y="127.08952"
+         style="stroke-width:0.26458332"
+         id="tspan5049">(including the user sp!)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="49.743156"
+       y="134.69048"
+       id="text5043"><tspan
+         sodipodi:role="line"
+         id="tspan5041"
+         x="49.743156"
+         y="134.69048"
+         style="stroke-width:0.26458332">we push some machine state</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="52.795788"
+       y="142.61316"
+       id="text5047"><tspan
+         sodipodi:role="line"
+         id="tspan5045"
+         x="52.795788"
+         y="142.61316"
+         style="stroke-width:0.26458332">pusha all the registers!</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5076)"
+       d="m 103.1875,127.66667 c 7.9375,-2.64584 30.25411,-25.41744 -15.875,-29.10417"
+       id="path5066"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
