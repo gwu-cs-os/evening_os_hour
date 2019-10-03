@@ -13,8 +13,9 @@ all: $(BINARY)
 $(BINARY): $(OBJECTS)
 	$(CC) -o $@ $^
 
+# regular expression where % is a wildcard
 %.o:%.c
 	$(CC) $(CFLAGS) -c -o $@ $^
 
 clean:
-	rm -rf $(BINARY) *.o
+	rm -rf $(BINARY) $(OBJECTS)

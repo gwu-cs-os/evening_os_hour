@@ -5,10 +5,47 @@
 - HW3
 	- procrastination is not a viable strategy for this class
 	- please take re-submission seriously
+	- C and stack allocation
+```c
+void
+foo(void)
+{
+	struct pstat *a = malloc(sizeof(struct pstat));
+	...
+	free(a);
+}
+
+/* why don't we do stack allocation instead? */
+void
+foo_stk_alloc(void)
+{
+	struct pstat a;
+	...
+}
+
+/* make it global instead? */
+struct pstat a;
+void
+foo_global(void)
+{
+	/* reference a */
+	...
+}
+
+pthread_create(foo_global, ...)
+pthread_create(foo_global, ...)
+/* races on the global variable, so don't do this! */
+```
+
 - HW4
     - implementing threads
 	- really must get this working (hw5!)
+
 - what else?
+
+- Use diff to update subsequent homework repos...won't be able to maintain the git history
+	- `diff` produces a patch
+	- `patch` will apply the patch
 
 ## Build systems
 

@@ -3,5 +3,5 @@
 int
 yfn(int a)
 {
-	return a * YCONST;
+	return (a + 1) * YCONST;
 }

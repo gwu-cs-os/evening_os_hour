@@ -1,7 +1,7 @@
 #ifndef Z_H
 #define Z_H
 
-#define YCONST 42
+#define YCONST 44
 
 int yfn(int);
 
