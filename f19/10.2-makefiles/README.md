@@ -2,8 +2,13 @@
 
 ## Class Organization
 
-- HW4: implementing threads
-- Really must get this working (hw5!)
+- HW3
+	- procrastination is not a viable strategy for this class
+	- please take re-submission seriously
+- HW4
+    - implementing threads
+	- really must get this working (hw5!)
+- what else?
 
 ## Build systems
 
@@ -15,10 +20,10 @@ A build system's goals are to
 
 To motivate and give examples of each of these, see
 
-- `01_build_script` - This shows how to use a shell script to encode the magical incantations of your build.
+- [`01_build_script`](https://github.com/gparmer/evening_os_hour/tree/master/f19/10.2-makefiles/01_build_script) - This shows how to use a shell script to encode the magical incantations of your build.
 	This has a number of downsides including repetition within the script, and the fact that it can perform a single function.
 	You could make the script arbitrarily complex and add arguments to do multiple operations (e.g. `clean` and `qemu` in `xv6`), but now you're *writing a build system*, and it won't track modified files and only rebuild them.
-- `02_simple_makefile` - A `Makefile` to organize the build process.
+- [`02_simple_makefile`](https://github.com/gparmer/evening_os_hour/tree/master/f19/10.2-makefiles/02_simple_makefile) - A `Makefile` to organize the build process.
 	We see a number of features here.
 
 	1. Variables avoid repetition within the code,
@@ -27,7 +32,7 @@ To motivate and give examples of each of these, see
 
 	The dependencies specify other necessary rules for execution, or files.
 	In the latter case, a rule is only executed if the file changed since the last time you called `make`.
-- `03_featureful_makefile` - this example includes
+- [`03_featureful_makefile`](https://github.com/gparmer/evening_os_hour/tree/master/f19/10.2-makefiles/03_featureful_makefile) - this example includes
 
     - features to remove code repetition and to allow you to avoid `Makefile` updates by using regular expression-like wildcards, pattern substitution, and iteration,
 	- compiler-integrated support to generate additional dependencies based on the `.h` files included in our `.c` files (via `DEP*` logic and `.d` files),
