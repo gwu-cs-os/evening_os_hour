@@ -5,6 +5,10 @@
 - thread homework
 - heap sharing
 - synchronization
+	- locks shared across processes is what you're doing for this assignment.
+	- that's a little odd, since processes have separate VASes, but I encourage you think of a case where mut ex is useful across processes.
+- dining philosophers
+	- correct as is with an addition of mutexes
 
 - midterm
 	- crib sheet
