@@ -46,36 +46,40 @@ In regards to VMs, is the hypervisor and the kernel the same thing? Specifically
 
 ## Sync
 
--been trying to implement condition vars for the r/w code... I know you asked us to do it ourselves but have no idea if I did it correctly....could you go over this?
+- been trying to implement condition vars for the r/w code... I know you asked us to do it ourselves but have no idea if I did it correctly....could you go over this?
 
--solution 2 for dining philosophers... was looking at the slide and there isn't context for the functions so I'm not sure what the issue is could you go over it?
+- solution 2 for dining philosophers... was looking at the slide and there isn't context for the functions so I'm not sure what the issue is could you go over it?
 
-*Answer*: there is no solution 1, 2, and 3, there are slide 1, 2, and 3.
+    *Answer*: there is no solution 1, 2, and 3, there are slide 1, 2, and 3.
 Slide 2 is providing context for the condition-variable solution.
 
--is deadlock possible w/async communication between thds (I'm leaning towards no but who knows??)
+- is deadlock possible w/async communication between thds (I'm leaning towards no but who knows??)
 
 ## Scheduling
 
--does the scheduler know how many cores the computer has?
+- does the scheduler know how many cores the computer has?
 
 ## Threading
 
 For the Facebook server problem, I am having a hard time with the concepts. For the different scenario, this is what I think.
 
 Facebook webserver:
+
 a) Single thread
-  Throughput: Not great because for each client requests, it performs all calculations and reads from the disk
-  Reliability:  No. Because if a calculation fails then no client request will be calculated
-  Parallelism: No. Because we only have one thread performing the calculation
+
+  - Throughput: Not great because for each client requests, it performs all calculations and reads from the disk
+  - Reliability:  No. Because if a calculation fails then no client request will be calculated
+  - Parallelism: No. Because we only have one thread performing the calculation
 
 b) Multi process server
-  Throughput: Not too great because each worker compute and do disk i/O and the access to disk i/o increases throughput. Also, if the IPC is done via memory sharing it will not increase the throughput as will message passing.
-  Reliability: Yes, because if a process fails it will not affect the others
-  Parallelism: Yes, different processes are doing different operations
+
+  - Throughput: Not too great because each worker compute and do disk i/O and the access to disk i/o increases throughput. Also, if the IPC is done via memory sharing it will not increase the throughput as will message passing.
+  - Reliability: Yes, because if a process fails it will not affect the others
+  - Parallelism: Yes, different processes are doing different operations
 
 
 c) Multi-threaded process
-  Throughput: Better, because only one thread will do the disk i/o at a time.
-  Reliability:  Not reliable because if a thread does a disk i/o and there is a problem, then no other thread will be blocked.
-  Parallelism: yes because many threads will compute different operations.
+
+  - Throughput: Better, because only one thread will do the disk i/o at a time.
+  - Reliability:  Not reliable because if a thread does a disk i/o and there is a problem, then no other thread will be blocked.
+  - Parallelism: yes because many threads will compute different operations.
