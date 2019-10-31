@@ -18,9 +18,7 @@ can we briefly go over overhead concepts:
 4. IPC
 5. device I/O
 
-*Suggested answer*:
-
-been thinking about the different overheads and am trying to rank them in terms of (relatively) best to worst
+*Suggested answer*: been thinking about the different overheads and am trying to rank them in terms of (relatively) best to worst
 
 here's my tentative list (pls correct it)
 
@@ -65,21 +63,26 @@ For the Facebook server problem, I am having a hard time with the concepts. For 
 
 Facebook webserver:
 
-a) Single thread
+1. Single thread
 
   - Throughput: Not great because for each client requests, it performs all calculations and reads from the disk
   - Reliability:  No. Because if a calculation fails then no client request will be calculated
   - Parallelism: No. Because we only have one thread performing the calculation
 
-b) Multi process server
+2. Multi process server
 
   - Throughput: Not too great because each worker compute and do disk i/O and the access to disk i/o increases throughput. Also, if the IPC is done via memory sharing it will not increase the throughput as will message passing.
   - Reliability: Yes, because if a process fails it will not affect the others
   - Parallelism: Yes, different processes are doing different operations
 
 
-c) Multi-threaded process
+3. Multi-threaded process
 
   - Throughput: Better, because only one thread will do the disk i/o at a time.
   - Reliability:  Not reliable because if a thread does a disk i/o and there is a problem, then no other thread will be blocked.
   - Parallelism: yes because many threads will compute different operations.
+
+## Communication
+
+- Wanted to make sure I understand the ipc vs message passing tradeoff...
+    Is it having to ensure mutual exclusion vs having 2 memcopy operations which messes up your cache?
