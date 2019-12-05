@@ -1,5 +1,7 @@
 # Schedule
 
+All project, all the time.
+
 ## Containers and communication
 
 See `containers_comms.svg`.
@@ -18,7 +20,25 @@ How:
 2. call the kernel to block if the lock is held by someone else
 	...and call the kernel to wake any threads that are blocked when the lock is released
 
+What is the race condition here?
+
+1. Thread A does mutex_lock -> (owned = 1, contested = 0)
+2. Preemption -> thread B
+3. Thread B mutex_lock -> (owned = 1, contested = 1)
+4. Thread B is preemption -> thread A
+5. Thread A mutex_release -> (owned = 0, contested = 0)
+6. Thread A calls kernel to wakeup all blocked threads on the mutex
+   -> kernel says "OK there are no threads to wakeup, so...thanks for that"
+7. switch back to thread B
+8. continue executing Thread B that is in the process of calling the kernel to block
+   -> go into the kernel and block....forever more
+
 ## Differentiating between processes
 
 - Do processes in different containers have overlapping pids?
 - how can we differentiate them? should have container ids?
+
+## Dirlookup scope
+
+- does it search just the cwd? or all subdirs?
+- what is the scope and FS within a container?
